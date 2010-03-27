@@ -20,7 +20,7 @@ BuildRequires:	intltool
 BuildRequires:	python-devel
 Obsoletes:	libaudit-common < 1.6.1
 Conflicts:	audit < 1.6.1
-Epoch:		0
+Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
