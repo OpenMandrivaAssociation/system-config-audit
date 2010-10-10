@@ -1,6 +1,6 @@
 Summary:	Audit GUI configuration tool
 Name:		system-config-audit
-Version:	0.4.15
+Version:	0.4.17
 Release:	%mkrel 1
 License:	GPLv2
 Group:		System/Base
