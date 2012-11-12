@@ -1,0 +1,11 @@
+--- src/global_dialog.py	2008-10-20 21:10:22.000000000 -0400
++++ src/global_dialog.py.oden	2010-03-16 08:54:17.377470309 -0400
+@@ -502,7 +502,7 @@ class GlobalDialog(DialogBase):
+         Return an error message, or None if no error is detected.
+ 
+         '''
+-        if os.access(_email_command, os.X_OK):
++        if not os.access(_email_command, os.X_OK):
+             return (_('Email requested but %s is not executable') %
+                     _email_command)
+         return None
