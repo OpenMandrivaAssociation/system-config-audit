@@ -65,3 +65,33 @@ rm -rf %{buildroot}
 %{_sbindir}/system-config-audit-server-real
 %{_sbindir}/system-config-audit-server
 
+
+
+%changelog
+* Sat Jun 18 2011 Oden Eriksson <oeriksson@mandriva.com> 1:0.4.18-1mdv2011.0
++ Revision: 685946
+- 0.4.18
+
+* Fri May 06 2011 Oden Eriksson <oeriksson@mandriva.com> 1:0.4.17-2
++ Revision: 670257
+- mass rebuild
+
+* Sun Oct 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1:0.4.17-1mdv2011.0
++ Revision: 584649
+- 0.4.17
+
+* Mon Aug 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1:0.4.15-1mdv2011.0
++ Revision: 568096
+- 0.4.15
+
+* Sat Mar 27 2010 Oden Eriksson <oeriksson@mandriva.com> 1:0.4.14-1mdv2010.1
++ Revision: 527908
+- bump epoch
+
+* Tue Mar 16 2010 Oden Eriksson <oeriksson@mandriva.com> 0:0.4.14-1mdv2010.1
++ Revision: 521167
+- import system-config-audit
+
+
+* Tue Mar 16 2010 Oden Eriksson <oeriksson@mandriva.com> 0:0.4.14-1mdv2010.1
+- initial Mandriva package (split out from the main audit package)
