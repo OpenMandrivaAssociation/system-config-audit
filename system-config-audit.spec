@@ -1,7 +1,7 @@
 Summary:	Audit GUI configuration tool
 Name:		system-config-audit
 Version:	0.4.18
-Release:	5
+Release:	6
 License:	GPLv2
 Group:		System/Base
 URL:		https://fedorahosted.org/system-config-audit/
