@@ -1,7 +1,10 @@
+%define _disable_rebuild_configure 1
+%define _disable_lto 1
+
 Summary:	Audit GUI configuration tool
 Name:		system-config-audit
-Version:	0.4.18
-Release:	10
+Version:	0.4.21
+Release:	1
 License:	GPLv2
 Group:		System/Base
 URL:		https://fedorahosted.org/system-config-audit/
